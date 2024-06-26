@@ -55,7 +55,7 @@
         </form>
       @endif
 
-      @if (!empty($comments))
+      @if ($comments)
         @foreach ($comments as $comment)
           <div class="comment">
             <div class="user-info">

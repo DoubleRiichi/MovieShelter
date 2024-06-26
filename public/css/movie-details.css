@@ -17,6 +17,7 @@
   display: flex;
   justify-self: left;
   height: auto;
+  flex-wrap: wrap;
 }
 
 #up {
@@ -36,6 +37,10 @@
   margin: 1em;
   text-wrap: wrap;
 
+}
+
+#tagline-top {
+  margin-top: 0em;
 }
 
 #recap {
